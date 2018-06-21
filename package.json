@@ -1,6 +1,6 @@
 {
   "name": "@gemcook/utils-sls",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "repository": "https://github.com/gemcook/utils-sls.git",
   "author": "shsssskn <s.nishino@gemcook.com>",
@@ -52,5 +52,7 @@
     "build:umd": "node ./scripts/rollup/umd.build.js",
     "prepublishOnly": "make prepublish"
   },
-  "dependencies": {}
+  "dependencies": {
+    "aws-sdk": "^2.260.1"
+  }
 }
